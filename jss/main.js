@@ -3,7 +3,7 @@ $(function() {
     var searchTerm, resultsURL;
     $("#searchTerm").keyup(function() {
         searchTerm = $(this).val();
-        resultsURL = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm;
+        resultsURL = "https://en.wikipedia.org/w/api.php?action=opensearch&origin=*&search=" + searchTerm;
         $("#results").empty();
         getJson();
     });
