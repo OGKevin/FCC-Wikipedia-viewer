@@ -1,0 +1,20 @@
+
+body {
+	/*background-color: black;*/
+}
+
+#titel {
+	color: black;
+	text-align: center;
+	margin-top: 50;
+font-family: monospace;
+}
+
+#search {
+	color: black;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
