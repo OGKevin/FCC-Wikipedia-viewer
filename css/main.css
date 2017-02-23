@@ -1,17 +1,17 @@
 
 body {
-	/*background-color: black;*/
+	background-color: black;
 }
 
 #titel {
-	color: black;
+	color: white;
 	text-align: center;
 	margin-top: 50;
 font-family: monospace;
 }
 
 #search {
-	color: black;
+	color: white;
 }
 
 a {
@@ -23,6 +23,12 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*flex-direction: column;*/
+}
 
+#results {
+	color : white;
+}
+
+#icon{
+	color: white;
 }
